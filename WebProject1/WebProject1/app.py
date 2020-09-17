@@ -8,6 +8,9 @@ app = Flask(__name__)
 # To add other resources, create functions that generate the page contents
 # and add decorators to define the appropriate resource locators for them.
 
+# 파이썬을 개발하자.
+# 플라스크를 개발하자.
+
 @app.route('/')
 @app.route('/hello')
 def hello():
